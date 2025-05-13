@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Conversor Base64 para Imagem</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/exif-js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Base64 para Imagem</h1>
+    <textarea id="base64Input" placeholder="Cole aqui o código Base64"></textarea>
+    <button id="convertButton">Converter</button>
+    <button id="downloadButton" style="display: none;">Baixar Imagem</button>
+    <div id="imageContainer"></div>
+    <div id="imageInfo" class="image-info"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
